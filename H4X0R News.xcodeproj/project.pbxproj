@@ -11,6 +11,10 @@
 		8148A79C280B687D00535B38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148A79B280B687D00535B38 /* ContentView.swift */; };
 		8148A79E280B687E00535B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8148A79D280B687E00535B38 /* Assets.xcassets */; };
 		8148A7A1280B687E00535B38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8148A7A0280B687E00535B38 /* Preview Assets.xcassets */; };
+		8148A7A9280B6ABE00535B38 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148A7A8280B6ABE00535B38 /* NetworkManager.swift */; };
+		8148A7AB280B6BE000535B38 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148A7AA280B6BE000535B38 /* PostData.swift */; };
+		8148A7AE280B6FC100535B38 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148A7AD280B6FC100535B38 /* DetailView.swift */; };
+		8148A7B0280B718000535B38 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148A7AF280B718000535B38 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		8148A79B280B687D00535B38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8148A79D280B687E00535B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8148A7A0280B687E00535B38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8148A7A8280B6ABE00535B38 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8148A7AA280B6BE000535B38 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		8148A7AD280B6FC100535B38 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8148A7AF280B718000535B38 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		8148A798280B687D00535B38 /* H4X0R News */ = {
 			isa = PBXGroup;
 			children = (
+				8148A7AC280B6FB000535B38 /* Views */,
+				8148A7A7280B6AB300535B38 /* Models */,
 				8148A799280B687D00535B38 /* H4X0R_NewsApp.swift */,
-				8148A79B280B687D00535B38 /* ContentView.swift */,
 				8148A79D280B687E00535B38 /* Assets.xcassets */,
 				8148A79F280B687E00535B38 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				8148A7A0280B687E00535B38 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8148A7A7280B6AB300535B38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8148A7A8280B6ABE00535B38 /* NetworkManager.swift */,
+				8148A7AA280B6BE000535B38 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8148A7AC280B6FB000535B38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8148A79B280B687D00535B38 /* ContentView.swift */,
+				8148A7AD280B6FC100535B38 /* DetailView.swift */,
+				8148A7AF280B718000535B38 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8148A7A9280B6ABE00535B38 /* NetworkManager.swift in Sources */,
+				8148A7AB280B6BE000535B38 /* PostData.swift in Sources */,
 				8148A79C280B687D00535B38 /* ContentView.swift in Sources */,
+				8148A7B0280B718000535B38 /* WebView.swift in Sources */,
+				8148A7AE280B6FC100535B38 /* DetailView.swift in Sources */,
 				8148A79A280B687D00535B38 /* H4X0R_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News/Preview Content\"";
+				DEVELOPMENT_TEAM = N85367UW8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News/Preview Content\"";
+				DEVELOPMENT_TEAM = N85367UW8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
